@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>廣瀬大助のページ</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+	<!-- lightbox -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+	<style>
+		body {
+        padding-top: 50px;
+        background-color: lightgray;
+		}
+
+		.jumbotron {
+			background-image: url("./img/bg2.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height:600px;
+			color: white;
+		}
+
+		.starter-template {
+			padding: 40px 80px;
+			background-color: white;
+		}
+
+		.icon-size {
+			font-size: 200%;
+		}
+		.color-talk {
+ 			color: lightseagreen;
+		}
+
+		.color-wrench {
+ 			color: steelblue;
+		}
+
+		.color-heart {
+ 			color: plum;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">廣瀬大助のページ</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Portfolio</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#skills">Skills</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div>
+					<h1>廣瀬大助のポートフォリオサイト</h1>
+					<p class="lead">16年の営業経験で培ったコミュニケーション能力を活かし心機一転エンジニアへ。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="starter-template">
+			<div class="row text-center">
+				<h2 id="works">地道な努力、継続力とコミュニケーション能力！！</h2>
+				<div class="col-sm-4">
+					<h2 class="color-talk"><img src="./img/osyaberi_man.png" class="icon-siz"><br>聴く</h2>
+					<p>16年の営業経験で培った<br>ヒアリング力で<br>ユーザーの真のニーズを発掘します。</p>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="color-wrench"><img src="./img/slump_good_man_study.png" class="icon-siz"><br>学ぶ</h2>
+					<p>学習意欲が高く<br>常に学び続けることができます。<br>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="color-heart"><img src="./img/kaiwa_communication_business.png" class="icon-siz"><br>伝える</h2>
+					<p>社内外問わず様々な人と<br>コミュニケーションをとることが出来ます。<br>
+				</div>
+			</div>
+			<hr>
+			<h2 id="works">Works</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>らく楽営業ｰ営業支援システム</h3>
+					<p>「営業を楽に楽しく」をテーマにした営業支援システムです。営業プロセス管理機能、案件管理機能、顧客管理機能が連動し、自動でデータ分析されます。コンタクト効率を向上するチャット機能(チャットワークAPI)も実装しています。</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="./img/sfa2.png" data-lightbox="らく楽営業" data-title="らく楽営業">
+						<img src="./img/sfa2.png" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>ファッションメモ - 服装記録アプリ</h3>
+					<p>人と会うとき「あれ？前回どんな服装で会ったっけ？」という服装に気を使う女性向けのアプリです。他ユーザーと情報共有やキーワードで検索、AIによるおすすめコーディネート機能等も検討中です。</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="./img/myfashion1.png" data-lightbox="ファッションメモ" data-title="ファッションメモ">
+						<img src="./img/myfashion1.png" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			<h3>Others</h3>
+			<ul>
+				<li>PHP(スクラッチ)にてショッピングサイトを制作（教本参考）</li>
+				<li>じゃんけんアプリ制作</li>
+				<li>パスワードジェネレータアプリ制作</li>
+				<li>スロットゲームアプリ制作</li>
+				<li>占いゲームアプリ制作</li>
+				<li>ストップタイマーアプリ制作</li>
+			</ul>
+			<hr>
+			<h2 id="skills">Skills</h2>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Programing Language(学習継続中)</h3>
+					<ul>
+						<li>PHP/Laravelにて営業支援システムを制作</li>
+						<li>Ruby/Ruby on railsにてファッションメモアプリ制作</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>JavaScript</li>
+					</ul>
+					<h3>Database</h3>
+					<ul>
+						<li>MySQL</li>
+						<li>SQLite</li>
+					</ul>
+				</div>
+			</div>
+			<a class="btn btn-primary pull-right" href="#">Topに戻る</a>
+			<p></p>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+</body>
+
+</html>
